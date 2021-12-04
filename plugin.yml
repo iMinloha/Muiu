@@ -1,0 +1,40 @@
+name: Muiu
+version: 1.0.0
+author: Minloha
+website: https://www.minloha.cn
+main: cn.minloha.muiu
+commands:
+  unban:
+    description: 解除玩家封禁
+    permission: muiu.unban
+  muiu:
+    description: 获取用户可了解的Muiu信息
+  spirit:
+    description: 与对话精灵对话
+  morbid:
+    description: 对玩家禁言
+    permission: muiu.morbid
+  mospk:
+    description: 解除对玩家的禁言
+    permission: muiu.mospk
+  moralist:
+    description: 查看禁言列表
+    permission: muiu.seelist
+  outhit:
+    description: 命令行导出html
+  motile:
+    description: 向玩家弹出提示框
+    permission: muiu.alert
+permissions:
+  muiu.*:
+    description: 有关muiu的相关权限
+  muiu.unban:
+    description: 解除封禁权限
+  muiu.morbid:
+    description: 禁言权限
+  muiu.mospk:
+    description: 解除禁言权限
+  muiu.seeList:
+    description: 查看禁言列表
+  muiu.alert:
+    description: 允许弹出提示框
